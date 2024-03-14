@@ -9,13 +9,13 @@ Console.WriteLine("Modification 2!");
 
 static double CountAvg(int[] arr)
 {
-    double res = 0;
+    double rest = 0;
     foreach (int i in arr)
     {
-        res += i;
+        rest += i;
     }
 
-    return res / arr.Length;
+    return rest / arr.Length;
 }
 
 static int CountMax(int[] arr)
