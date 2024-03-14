@@ -10,9 +10,9 @@ Console.WriteLine("Modification 2!");
 static double CountAvg(int[] arr)
 {
     double res = 0;
-    foreach (int it in arr)
+    foreach (int i in arr)
     {
-        res += it;
+        res += i;
     }
 
     return res / arr.Length;
