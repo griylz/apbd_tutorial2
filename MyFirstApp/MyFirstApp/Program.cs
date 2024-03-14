@@ -18,5 +18,19 @@ static double CountAvg(int[] arr)
     return res / arr.Length;
 }
 
+static int CountMax(int[] arr)
+{
+    int max = 0;
+    foreach (int i in arr)
+    {
+        if (i>max)
+        {
+            max = i;
+        }
+    }
+    return max;
+}
+
 int[] numbers = {1,3,4,5,6};
 Console.WriteLine(CountAvg(numbers));
+Console.WriteLine(CountMax(numbers));
